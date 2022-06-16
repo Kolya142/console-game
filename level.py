@@ -2,7 +2,7 @@ def clear(max):
     leve = "p"
     for i in range(max): 
         leve += "."
-    level = open("level.g", 'w')
+    level = open("level.g2", 'w')
     level.write(leve)
     level.close()
 def ran(max,x):
@@ -14,6 +14,6 @@ def ran(max,x):
             leve += "."
         else:
             leve += "*"
-    level = open("level.g", 'w')
+    level = open("level.g2", 'w')
     level.write(leve)
     level.close()
